@@ -1,1 +1,13 @@
 @import "tailwindcss";
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+input{
+    background: #fff; 
+    border-radius: 4px;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    
+}

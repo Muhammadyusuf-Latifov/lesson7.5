@@ -1,9 +1,11 @@
-import { memo } from "react";
+import { memo } from 'react';
+import  Student from './components/student/Student';
 
 const App = () => {
   return (
     <div className="App">
-      <h2>App</h2>
+     
+      <Student/>
     </div>
   );
 };
