@@ -24,24 +24,3 @@ const Student = () => {
 
 export default memo(Student);
 
-// import { memo, useState } from "react";
-// import FormControl from "./FormControl";
-// import View from "./View";
-// export interface IBlog {
-//   id: number;
-//   title: string;
-//   description: string;
-// }
-// const Main = () => {
-//   const [data, setData] = useState<IBlog[]>([]);
-//   console.log(data);
-
-//   return (
-//     <div className="Main">
-//       <FormControl setData={setData} />
-//       <View data={data} />
-//     </div>
-//   );
-// };
-
-// export default memo(Main);

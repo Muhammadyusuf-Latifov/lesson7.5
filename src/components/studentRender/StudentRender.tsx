@@ -50,12 +50,7 @@ const StudentRender: FC<Props> = ({ data }) => {
                     {item.age} years old
                   </p>
                   <p className="text-[#7e7e7e]">{item.group}</p>
-                  {/* <button
-                   
-                    className="w-[100%] py-[10px] border mt-[20px] rounded-[6px] bg-[crimson] text-[#fff]"
-                  >
-                    Delete
-                  </button> */}
+                
                 </div>
               </div>
             ))}
